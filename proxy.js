@@ -4,7 +4,6 @@ var proxy = require('redbird')({
     port:9999
   },
   ssl: {
-    http2: true,
 		port: 443,
   },
 	port:80,
