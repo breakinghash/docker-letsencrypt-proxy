@@ -10,7 +10,7 @@ var proxy = require('redbird')({
 
 // LetsEncrypt support
 // With Redbird you can get zero conf and automatic SSL certificates for your domains
-redbird.register(process.env.DOMAIN, process.env.BACKEND, {
+proxy.register(process.env.DOMAIN, process.env.BACKEND, {
 	ssl: {
     letsencrypt: {
       email: process.env.EMAIL, // Domain owner/admin email
