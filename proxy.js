@@ -5,7 +5,8 @@ var proxy = require('redbird')({
   },
   ssl: {
     http2: true,
-  }
+  },
+	port:80,
 });
 
 // LetsEncrypt support
